@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "public_pages",
+  "info": {
+    "singularName": "public-page",
+    "pluralName": "public-pages",
+    "displayName": "Public page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string"
+    },
+    "navigationType": {
+      "type": "enumeration",
+      "enum": [
+        "main",
+        "footer"
+      ]
+    },
+    "isHomePage": {
+      "type": "boolean",
+      "default": false
+    },
+    "priority": {
+      "type": "integer",
+      "default": 1,
+      "required": true
+    }
+  }
+}
