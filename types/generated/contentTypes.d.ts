@@ -563,6 +563,7 @@ export interface ApiRoomRoom extends Struct.CollectionTypeSchema {
     priority: Schema.Attribute.Integer &
       Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<1>;
+    subtitle: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
