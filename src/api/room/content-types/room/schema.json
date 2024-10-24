@@ -66,6 +66,9 @@
       "type": "integer",
       "default": 1,
       "required": true
+    },
+    "subtitle": {
+      "type": "string"
     }
   }
 }
